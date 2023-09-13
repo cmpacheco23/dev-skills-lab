@@ -12,10 +12,10 @@
     <li>
       <%= skill.text %>
       - 
-      <%= skill.isFavorite ? 'favorite' : 'not favorite' %>
+      <%= skill.learned ? 'learned' : 'not yet learned' %>
     </li>
     <% }) %>
   </ul>
-  <a href="/todos/new"> Add To-Do</a>
+  <a href="/skills/new"> Add Skill</a>
 </body>
 </html>

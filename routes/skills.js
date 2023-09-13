@@ -8,5 +8,6 @@ const router = Router()
 // skillsCtrl.index is the controller function
 router.get('/', skillsCtrl.index)
 router.get('/new', skillsCtrl.new)
+router.post('/', skillsCtrl.create)
 
 export { router }
