@@ -30,8 +30,12 @@ function create(req, res){
   })
 }
 
+function show(req, res){
+
+}
 export {
   index,
   newSkill as new,
   create,
+  show,
 }
